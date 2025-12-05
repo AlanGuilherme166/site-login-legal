@@ -4,21 +4,21 @@
     border: none;
     border-radius: 5px;
     background: linear-gradient(to right,
-        #c4e17f 0%, #c4e17f 12.5%,
-        #f7fdca 12.5%, #f7fdca 25%,
-        #fecf71 25%, #fecf71 37.5%,
-        #f0776c 37.5%, #f0776c 50%,
-        #db9dbe 50%, #db9dbe 62.5%,
-        #c49cde 62.5%, #c49cde 75%,
+        #4400ff 0%, #00f7ff 12.5%,
+        #3700ff 12.5%, #cafafd 25%,
+        #7f71fe 25%, #71fedf 37.5%,
+        #896cf0 37.5%, #6cf0c4 50%,
+        #c29ddb 50%, #9ddbd8 62.5%,
+        #a69cde 62.5%, #9cbede 75%,
         #669ae1 75%, #669ae1 87.5%,
-        #62c2e4 87.5%, #62c2e4 100%
+        #a562e4 87.5%, #62c2e4 100%
     );
 }
 
 body, html {
     height: 100%;
     margin: 0;
-    background: linear-gradient(rgb(104, 145, 162), rgb(12, 97, 33));
+    background: linear-gradient(rgb(153, 0, 255), rgb(0, 255, 213));
     background-repeat: no-repeat;
 }
 
@@ -47,8 +47,8 @@ body, html {
 }
 
 .form-signin .form-control:focus {
-    border-color: rgb(104, 145, 162);
-    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgb(104, 145, 162);
+    border-color: rgb(28, 180, 122);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgb(28, 121, 161);
     outline: none;
 }
 
@@ -59,12 +59,12 @@ body, html {
 }
 
 .forgot-password {
-    color: rgb(104, 145, 162);
+    color: rgb(20, 211, 195);
 }
 
 .forgot-password:hover,
 .forgot-password:focus {
-    color: rgb(12, 97, 33);
+    color: rgb(127, 25, 136);
     text-decoration: underline;
 }
 
